@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Article Archive</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo-footwear.png" width="230px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="products.html">Product</a></li>
+                     <!-- <li><a href="">About</a></li> -->
+                     <li><a href="article.html">Blog</a></li>
+                     <li><a href="account.html">Account</a></li>
+    
+                </ul>
+            </nav>
+            <a href="cart.html"><i class="fa fa-cart-plus" style="font-size:30px"></i></a>
+            <img src="images/menu.png" class="menu-icon" onClick="menutoggle()" >
+        </div>
+    <div class="container">
+        <!-- <h1>Payment History</h1> -->
+        <div class="history-item">
+            <h2>Transaction Date: 2024-05-01</h2>
+            <div class="payment-summary">
+                <p class="payment-method">Payment Method: <span>Debit Card</span></p>
+                <p class="total-price">Total: $218.95</p>
+            </div>
+            <div class="item-details">
+                <div class="product-item">
+                    <img src="images/hoka_1.webp" alt="Nike Air VaporMax 2021">
+                    <div class="product-info">
+                        <p class="product-name">Nike Air VaporMax 2021</p>
+                        <p>Quantity: 1</p>
+                        <p>Price: $85.00</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/hoka5.webp" alt="Nike ZoomX Vaporfly">
+                    <div class="product-info">
+                        <p class="product-name">Nike ZoomX Vaporfly</p>
+                        <p>Quantity: 1</p>
+                        <p>Price: $125.00</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/hoka8.jpg" alt="Nike ZoomX Vaporfly">
+                    <div class="product-info">
+                        <p class="product-name">Nike ZoomX Vaporfly</p>
+                        <p>Quantity: 1</p>
+                        <p>Price: $125.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="history-item">
+            <h2>Transaction Date: 2024-05-15</h2>
+            <div class="payment-summary">
+                <p class="payment-method">Payment Method: <span>Bank Transfer</span></p>
+                <p class="total-price">Total: $330.00</p>
+            </div>
+            <div class="item-details">
+                <div class="product-item">
+                    <img src="images/hoka3.webp" alt="Nike Air Max 270">
+                    <div class="product-info">
+                        <p class="product-name">Nike Air Max 270</p>
+                        <p>Quantity: 2</p>
+                        <p>Price: $150.00</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="images/hoka4.webp" alt="Nike Air Force 1">
+                    <div class="product-info">
+                        <p class="product-name">Nike Air Force 1</p>
+                        <p>Quantity: 1</p>
+                        <p>Price: $90.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tambahkan item sejarah pembayaran lain di sini -->
+    </div>
+    <div class ="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Offline Store</h3>
+                    <i class="material-icons">location_on</i> 
+                    <p>Smith Street, Melbourne, Australia</p>
+                    <!-- <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div> -->
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-footwear.png">
+                    <p>Your satisfaction is our priority.</p>
+                </div>
+                <!-- <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                   <ul>
+                       <li>Coupons</li>
+                       <li>Blog Post</li>
+                       <li>Return Policy</li>
+                       <li>Join Affiliate</li>
+                    </ul>
+                </div> -->
+                <div class="footer-col-3">
+                    <h3>Follow us</h3>
+                   <ul>
+                       <li>Facebook</li>
+                       <li>Twitter</li>
+                       <li>Instagram</li>
+                       <li>Youtube</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <hr><!--horizontal line-->
+            <p class="copyright">Copyright 2024 - Footwear</p>
+            
+        </div>
+    </div>
+    <script>
+        var menuItems=document.getElementById("MenuItems");
+        
+        MenuItems.style.maxHeight="0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight="200px";
+            }
+            else{
+                MenuItems.style.maxHeight="0px";
+            }
+        }
+
+            function redirectToMoreArticlePage() {
+            window.location.href = 'article-details.html'; // Ganti dengan URL tujuan Anda
+        }
+    </script>
+</body>
+</html>

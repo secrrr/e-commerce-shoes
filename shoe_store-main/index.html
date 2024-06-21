@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Footwear | Retail Shoes</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--added a cdn link by searching font awesome4 cdn and getting this link from https://www.bootstrapcdn.com/fontawesome/ this url*/-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+    <div class ="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo-footwear.png" width="230px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="products.html">Product</a></li>
+                         <!-- <li><a href="">About</a></li> -->
+                         <li><a href="article.html">Blog</a></li>
+                         <li><a href="account.html">Account</a></li>
+        
+                    </ul>
+                </nav>
+                <a href="cart.html"><i class="fa fa-cart-plus" style="font-size:30px"></i></a>
+                <img src="images/menu.png" class="menu-icon" onClick="menutoggle()" >
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Choose the best Shoes <br>For your Style </h1>
+                    <!-- <p>Success isn't always about greatness. It's about consistency. Consistent<br>hard work gains success. Greatness will come.</p> -->
+                    <a href="products.html" class="btn">Shop Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+        
+        <!------------------------------ featured categories------------------------------>
+        <!-- <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3 (2).jpg">
+                </div>
+            </div>
+            </div>
+        </div> -->
+        
+        <!------------------------------ featured Products------------------------------>
+        <div class="small-container">
+            <h2 class="title">Best Products</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/hoka_1.webp"></a>
+                        <a href="products-details.html"><h4>Downshifter Sports Shoes</h4></a>
+                        <div class="rating">
+                            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/hoka_2.webp"></a>
+                        <h4>Lace-Up Running Shoes</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$150.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/hoka3.webp"></a>
+                        <h4>Lace Fastening Shoes</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$120.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/hoka4.webp"></a>
+                        <h4>Flat Lace-Fastening Shoes</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$180.00</p>
+                    </div>  
+                </div>
+            
+            
+             <h2 class="title" >New Products</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/hoka5.webp"></a>
+                        <h4>Flat Heel gray hoes</h4>
+                        <div class="rating">
+                            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$300.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/hoka6.jpg"></a>
+                        <h4>Lace-Fastening black Shoes</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$350.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/hoka7.jpg"></a>
+                        <h4>HRX Men's cotton socks</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$400.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/hoka8.jpg"></a>
+                        <h4>Lace-Up Running Shoes</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$380.00</p>
+                    </div>  
+                </div>
+            <!--new row for the latest product-->
+                <!-- <div class="row">
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-7.jpg"></a>
+                        <h4>HRX cotton socks</h4>
+                        <div class="rating"> -->
+                            <!--(before this added awesome4 cdn font link to the head)added a cdn link by searching font awesome4 icon and from the site  search the star entering the first option and getting a link of this fa-star*-->
+                            <!-- <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$10.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-10.jpg"></a>
+                        <h4>Flat Lace-Fastening Shoes</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o" ></i>
+                        </div>
+                        <p>$48.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-11.jpg"></a>
+                        <h4>Loafers Men (Gray)</h4>
+                        <div class="rating">
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$15.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="products-details.html"><img src="images/product-12.jpg"></a>
+                        <h4>Lace-Fastening white Shoes</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>$21.00</p>
+                    </div>  
+                </div> -->
+            </div>
+        
+        <!--------------------------`   offer   --------------------------------->
+        <!-- <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/image1.png" class="offer-img">
+                    </div>
+                    <div class="col-2"> -->
+                        <!-- <p>Exclusively Available on RedStore</p> -->
+                        <!-- <h1>Sports Shoes</h1>
+                        <small> Buy latest collections of sports shoes online on Redstore at best prices from top brands such as Adidas, Nike, Puma, Asics, and Sparx at your leisure at best prices. </small><br>
+                        <a href="products.html" class="btn">Buy Now &#8594;</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
+        
+        
+        <!------------------------------News---------------------------------->
+        <div class="News">
+            <div class="small-container">
+                <a href="article.html"><h2 class="title">News</h2></a>
+                <div class="row">
+                    <div class="col-3">
+                        <img src="images/art-1.jpg">
+                        <h4><a href="article-details.html">The Hottest Sneaker Restocks of the Year: What You Need to Know</a></h4>
+                        <p>Sneakerheads, brace yourselves! This year has been monumental for sneaker restocks, with some of the most coveted pairs making their way back to the shelves.</p>
+                        <div class="more-article">
+                            <button type="button" onclick="redirectToMoreArticlePage()">More</button>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/art-6.jpg">
+                        <h4><a href="article-details.html">Best in Service: Winning the Top Shoe Retailer Award for 2023/2024</a></h4>
+                        <p>We are thrilled to announce that our dedication to exceptional customer service has been recognized with the prestigious Top Shoe Retailer Award for 2023/2024.</p>
+                        <div class="more-article">
+                            <button type="button" onclick="redirectToMoreArticlePage()">More</button>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <!-- <i class="fa fa-quote-left" ></i> -->
+                        <img src="images/art-5.jpg">
+                        <h4><a href="article-details.html">A Star Among Us: Famous Celebrity Shops at Footwear Retail Shoe Store</a></h4>
+                        <p> This exciting visit brought a touch of star power to our establishment, showcasing our top-notch collection and exceptional service. </p>
+                        <div class="more-article">
+                            <button type="button" onclick="redirectToMoreArticlePage()">More</button>
+                        </div>
+                        <!-- <div class="rating"> 
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <h3>Mabel Joe</h3> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!----------------------------------Brands------------------------------------>
+        <!-- <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/logo-godrej.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-oppo.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-coca-cola.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-paypal.png" alt="">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-philips.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
+        
+        <!----------------------------------footer------------------------------------->
+    <div class ="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Offline Store</h3>
+                    <i class="material-icons">location_on</i> 
+                    <p>Smith Street, Melbourne, Australia</p>
+                    <!-- <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div> -->
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-footwear.png">
+                    <p>Your satisfaction is our priority.</p>
+                </div>
+                <!-- <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                   <ul>
+                       <li>Coupons</li>
+                       <li>Blog Post</li>
+                       <li>Return Policy</li>
+                       <li>Join Affiliate</li>
+                    </ul>
+                </div> -->
+                <div class="footer-col-3">
+                    <h3>Follow us</h3>
+                   <ul>
+                       <li>Facebook</li>
+                       <li>Twitter</li>
+                       <li>Instagram</li>
+                       <li>Youtube</li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            <hr><!--horizontal line-->
+            <p class="copyright">Copyright 2024 - Footwear</p>
+            
+        </div>
+    </div>
+        
+        
+        <!-----------------------------------js for toggle menu----------------------------------------------->
+        <script>
+            var menuItems=document.getElementById("MenuItems");
+            
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px"){
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+
+                function redirectToMoreArticlePage() {
+                window.location.href = 'article-details.html'; // Ganti dengan URL tujuan Anda
+            }
+        </script>
+    </body>
+</html>
